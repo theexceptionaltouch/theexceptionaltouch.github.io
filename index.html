@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Exceptional Touch</title>
 <style>
@@ -8,9 +9,15 @@
     font-family: Arial;
     text-align: center;
     background-color: #fff8e7;
+    margin: 0;
+    padding: 16px;
   }
   h1 {
     color: darkgoldenrod;
+  }
+  h3 {
+    color: darkgoldenrod;
+    margin-bottom: 4px;
   }
   a {
     color: green;
@@ -19,6 +26,40 @@
     width: 90%;
     max-width: 400px;
     border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  .gallery img {
+    width: 45%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 4px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .prices {
+    margin: 0 auto;
+    max-width: 340px;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  .prices li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e6d9b8;
+  }
+  .social a {
+    display: inline-block;
+    margin: 6px 10px;
+    font-weight: bold;
   }
 </style>
 </head>
@@ -26,20 +67,65 @@
 
 <h1>The Exceptional Touch</h1>
 <p>Excellence in every touch.</p>
-<img src="https://i.postimg.cc/tJMqHts9/IMG-2860.jpg" alt="Haircut by The Exceptional Touch">
+<a class="btn" href="https://wa.me/2349138323889?text=Hello%20The%20Exceptional%20Touch%2C%20I%20would%20like%20to%20book%20a%20haircut.">Book Now on WhatsApp</a>
+<br><br>
+<img src="https://i.postimg.cc/VNCG4LHD/IMG-2860.jpg" alt="Haircut by The Exceptional Touch">
 
 <h2>Mobile Barber Service</h2>
-<p>We come to you, at home or at your workplace.</p>
+<p>We come to you, at home, school or office.</p>
+<p>Based at Diamond Estate, Umuguma, Owerri, Imo State.</p>
 
-<h2>Our Services</h2>
-<ul>
-  <li>Haircut</li>
-  <li>Beard trim</li>
-  <li>Hair dye</li>
+<h2>Prices</h2>
+
+<h3>Adults (men and women)</h3>
+<p>Home service anywhere in Imo State</p>
+<ul class="prices">
+  <li>Barbing and dyeing: ₦20,000</li>
+  <li>Barbing only: ₦18,000</li>
 </ul>
 
+<p>Home service within Umuguma</p>
+<ul class="prices">
+  <li>Barbing and dyeing: ₦15,000</li>
+  <li>Barbing only: ₦10,000</li>
+</ul>
+
+<h3>Children</h3>
+<p>Home, school or office service</p>
+<ul class="prices">
+  <li>Barbing and dyeing: ₦7,000</li>
+  <li>Barbing only: ₦5,000</li>
+</ul>
+
+<h3>Other Services</h3>
+<ul class="prices">
+  <li>Shaving (men): ₦3,000</li>
+  <li>360 spot wave: ₦10,000</li>
+</ul>
+
+<h2>My Work</h2>
+<div class="gallery">
+  <img loading="lazy" src="https://i.postimg.cc/cHGDzyVp/20260613-154740.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/MTJsL2CJ/20260613-173249.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/pdFGkX13/20260712-185446.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/fb925Tgq/IMG-20260213-WA0021.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/YSWn8qyx/IMG-2859.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/VNCG4LHD/IMG-2860.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/wjP4hsFf/Snapchat-1389023566.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/DwDpqb5Y/Snapchat-1893498678.jpg" alt="Haircut by The Exceptional Touch">
+  <img loading="lazy" src="https://i.postimg.cc/Jhk6K4dq/Snapchat-716511701.jpg" alt="Haircut by The Exceptional Touch">
+</div>
+
 <h2>Contact Us</h2>
-<a href="https://wa.me/2349138323889">Chat with us on WhatsApp</a>
+<p><a href="https://wa.me/2349138323889">Chat with us on WhatsApp</a></p>
+
+<h2>Follow Us</h2>
+<div class="social">
+  <a href="https://instagram.com/theexceptionaltouch">Instagram</a>
+  <a href="https://facebook.com/theexceptionaltouch">Facebook</a>
+  <a href="https://tiktok.com/@theexceptionaltouch">TikTok</a>
+  <a href="https://youtube.com/@theexceptionaltouch">YouTube</a>
+</div>
 
 </body>
 </html>
